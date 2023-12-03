@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Sharry.css">
+    <style>
+        .conatiner .song-side::before {
+
+            background-image: url("./photos/sharrymaan.jpeg");
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="conatiner">
+
+        <div class="menu-side">
+            <h1>Playlist</h1>
+
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+            </div>
+
+
+            <div class="menu-songs">
+                <li class="SongItem">
+                    <span>01</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        on My way j njf2nmo kgmnvngbni <br>
+                        <div class="subtitle">Alan walker</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="1"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>02</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        neend aane lagi h <br>
+                        <div class="subtitle">Udit Narayan</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="2"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>03</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        pyar hona <br>
+                        <div class="subtitle">pagal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="3"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>04</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="4"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>05</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="5"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>06</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="6"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>07</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="7"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>08</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="8"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>09</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="9"></i>
+
+                </li>
+
+
+                <li class="SongItem">
+                    <span>10</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="10"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>11</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="11"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>12</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="12"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>13</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="13"></i>
+
+                </li>
+                <li class="SongItem">
+                    <span>14</span>
+                    <img src="./photos/1.jpeg" alt="">
+                    <h5>
+                        waka waka <br>
+                        <div class="subtitle">footbal</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="14"></i>
+
+                </li>
+
+                <li class=SongItem">
+                    <span>15</span>
+                    <img src="./photos/15.webp" alt="">
+                    <h5>
+                        tera vaaste <br>
+                        <div class="subtitle">snika</div>
+                    </h5>
+                    <i class="bi playpuaseplay bi-play-circle-fill" id="15"></i>
+
+                </li>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="song-side">
+            <nav>
+                <ul>
+                    <li>DISCOVER <span></span></li>
+                    <li>MY LIBRARY</li>
+                    <li>RADIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="input" placeholder="search music">
+                    <div class="Search_music"></div>
+                </div>
+                <div class="user">
+                    <img src="./photos/1.jpeg" alt="">
+                </div>
+
+
+                <div class="DarkMode">
+                    <button class="Day active"> <i class="bi bi-sun-fill"></i></button>
+                    <button class="Night"> <i class=" bi bi-moon"></i> </button>
+
+                </div>
+            </nav>
+            <div class="Content">
+                <h1>Alen Walker-Fade</h1>
+                <p>you were the shadow to my light did you feel us another start you fade <br>Away afraid our aim is not
+                    of sight Wanna see</p>
+                <div class="buttons">
+                    <button>play</button>
+                    <button>Follow</button>
+                </div>
+
+            </div>
+
+            <div class="popular-songs">
+                <div class="h4">
+                    <h4>Popular song</h4>
+                    <div class="btn-s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop-songs">
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="1"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="2"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="3"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="4"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="5"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="6"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="8"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="12"> </i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+                    <li class="songItem">
+                        <div class="img-play">
+                            <img src="./photos/wp3067120.jpg" alt="">
+                            <i class="bi playpuaseplay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>
+                            On My way <br>
+                            <div class="subtitle">Shikira</div>
+                        </h5>
+
+                    </li>
+
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="popular-artist">
+                <div class="h4">
+                    <h4>Popular Artist</h4>
+                    <div class="btn-s">
+                        <i class="bi bi-arrow-left-short" id="pop_artist_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_artist_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/sharrymaan.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/alka.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/AP.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/arjit.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/arminder.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/coolio.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/gagan kokri.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/guru.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/yo yo.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/udit.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/jubin.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/sakira.jpeg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="Sharry.html"> <img src="./photos/sharrymaan.jpeg" alt=""></a>
+                    </li>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="Music-player">
+            <div class="wave" id="wavve">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="./photos/18.jpeg" alt="" id="poster_Master_play">
+            <h5 id="title">
+                Hanuman ji ki Gatha
+                <div class="subtitle">Vishu kumar</div>
+            </h5>
+            <div class="icons">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill  " id="back"></i>
+                <i class="bi bi-play-fill" id="masterplay"></i>
+                <i class="bi bi-skip-end-fill " id="next"></i>
+                <a href="" download id="download_music"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+            </div>
+
+            <span id="currentTime">0:00</span>
+
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot" id="Dot"></div>
+
+            </div>
+            <span id="currentEnd" ">0:30</span>
+
+
+            <div class=" vol">
+                <i class="bi bi-volume-up-fill" id="vol-icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol-bar volbar"></div>
+                <div class="vol-Dot" id="vol-Dot"></div>
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+
+    <script src="./Sharry.js"></script>
+</body>
+
+</html>
